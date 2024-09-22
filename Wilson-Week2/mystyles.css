@@ -1,0 +1,30 @@
+body { background-color: darkblue; color:yellow; } /* Target the whole document */
+
+/* this is a class that will be applied to multiple elements */
+
+.black_and_white { background-color: black; color: white; }
+
+/* an ID to change characteristics of an image */
+#change_img { width: 225px; background-color: aqua; box-shadow: 20px 15px 11px grey; }
+
+/* change states of an anchor */
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
