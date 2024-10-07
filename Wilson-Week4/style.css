@@ -1,0 +1,34 @@
+
+/* styles for week 4 assignment */
+
+body { background-color: lightblue; color:black; } /* Target the whole document */
+
+/* style for the form box */
+
+form#fmSaveMovie {
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 25px;
+    padding: 20px;
+    max-width:600px;
+}
+
+/* apply to all instances of <label> in fmSaveMovie */
+form#fmSaveMovie label {
+    float: left;
+    width: 7em;
+}
+
+form#fmSaveMovie input, form#fmSaveMovie textarea {
+    width: 20em;
+}
+
+/* set the sizes of the buttons in fmSaveMovie */
+form#fmSaveMovie input[type=reset], form#fmSaveMovie input[type=submit] {
+    width: 7em;
+}
+
+/* set the sizes of the buttons in fmGetMovie */
+form#fmGetMovie input[type=submit] {
+    width: 7em;
+}

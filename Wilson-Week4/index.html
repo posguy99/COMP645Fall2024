@@ -1,0 +1,42 @@
+
+<!-- Week 4 Assignment 4.4 - My Movie Collection -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Collection</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <h1>My Movie Collection</h1>
+    <br>
+    <form id="fmSaveMovie" class="form#fmSaveMovie">
+        <!-- some things are required others are not -->
+         <fieldset>
+            <legend>Required</legend>
+            <label>Movie Title:</label>    <input title="Title of the movie" type="text" placeholder="Aliens" required id="inSaveMovie"><br>
+            <label>Release Year:</label>   <input title="Year the movie was released" type="number" placeholder="1986" required id="inSaveYear"><br>
+         </fieldset>
+         <fieldset>
+            <legend>Optional</legend>
+            <label>Director:</label>    <input text="Director of the movie" placeholder="James Cameron" id="inSaveDirector"><br>
+            <label>Actors:</label>       <textarea text="Actors on-screen" placeholder="Sigourney Weaver" rows="4" cols="50" id="inSaveActors"></textarea><br>
+         </fieldset>
+        <br><br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Save">
+    </form>
+    <hr width="800px">
+    <form id="fmGetMovie">
+        <input type="submit" value="Get Movie">
+    </form>
+    <!-- placeholder for the movie data when Get Movie is executed -->
+    <div id="dvShowMovie">&nbsp;</div>
+
+        <!-- script link needs to be in the body element -->
+        <script src='script.js'></script>
+</body>
+</html>
